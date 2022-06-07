@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Sulphur+Point&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    background-color: black;
+    background: #007bff;
+    padding: 15px;    
+    color: white;
+
+    /* font-family: 'Bebas Neue', cursive; */
+    /* font-family: 'Sulphur Point', sans-serif; */
+}
+
+.pokeList {
+    padding: 25px;
+    color: white;
+    text-align: left;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Sulphur Point', sans-serif;
+    float: center;
+    background: #007bff; 
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    height: 100%;
+}
+
+.pokeSearchBar {
+    float: center;
+    text-align: center;
+}
+
+.itemsList {
+    padding: 25px;
+    font-family: 'Sulphur Point', sans-serif;
+    background: #00ff00; /*0, 123, 255 to 51, 174, 255*/ 
+    background: linear-gradient(to right, #03a803, #3da63d);
+    height: 1241px;
+    width: 100%;
+    color: white;
+}
+
+.itemSearchBar {
+    float: center;
+    text-align: center;
+}
+
+.itemButton {
+    background-color: black;
+    color: white;
+}
+
+.berryList {
+    padding: 25px;
+    background: #ff1717;
+    font-family: 'Sulphur Point', sans-serif;
+    background: linear-gradient(260deg, #ff1717, #a13838);
+    height: 1241px;
+    width: 100%;
+    float: center;
+    text-align: left;
+    color: white;
+}
+
+.berrySearchBar {
+    float: center;
+    text-align: center;
+}
+
+
+.berryListButton {
+    font-size: 12pt;
+    background: #353A40;
+    border-color: #353A40;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    padding: 3px 5px;
+}
+
+.itemPic {
+    text-align: center;
+}
+
+#pokeAbil {
+    color: black;
+    padding: 5px 0px;
+}
+
+#pokeMoves {
+    color: black;
+}
+
+#itemAttributes {
+    color: black;
+}
+
+#berryFlavor {
+    color: black;
+}
